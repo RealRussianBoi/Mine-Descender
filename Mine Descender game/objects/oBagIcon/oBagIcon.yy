@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oPickaxe",
+  "name": "oBagIcon",
   "spriteId": {
-    "name": "sPickaxe",
-    "path": "sprites/sPickaxe/sPickaxe.yy",
+    "name": "sBagIcon",
+    "path": "sprites/sBagIcon/sBagIcon.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,12 +26,11 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Pickaxe",
-    "path": "folders/Objects/Equipment/Starter Gear/Pickaxe.yy",
+    "name": "Buttons",
+    "path": "folders/Objects/Buttons.yy",
   },
 }

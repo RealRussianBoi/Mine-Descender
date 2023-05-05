@@ -22,3 +22,11 @@ slide = false;
 //Create Starter Equipment
 instance_create_layer(x,y,layer,oPickaxe);
 
+//Inventory list
+lootInv = ds_list_create();
+
+
+
+
+
+
