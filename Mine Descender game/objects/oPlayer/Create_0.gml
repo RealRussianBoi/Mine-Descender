@@ -19,5 +19,6 @@ walkSpd = 3;
 slideSpd = walkSpd + 2;
 slide = false;
 
-
+//Create Starter Equipment
+instance_create_layer(x,y,layer,oPickaxe);
 

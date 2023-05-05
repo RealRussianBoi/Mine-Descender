@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Non-Collidable",
-    "path": "folders/Objects/Obstacles/Non-Collidable.yy",
+    "name": "Decor",
+    "path": "folders/Objects/Obstacles/Non-Collidable/Decor.yy",
   },
 }

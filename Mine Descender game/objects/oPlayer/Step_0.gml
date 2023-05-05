@@ -25,6 +25,15 @@ if ((place_meeting(mouse_x,mouse_y,oLeftButton) and mouse_check_button(mb_left))
 	left = true;
 	initDirection = -1;
 	image_xscale = initDirection;
+		
+	if (place_empty(x + initDirection,y,oDirtPlatforms)) {
+		var chance = irandom(10);
+		if (place_meeting(x, y + 1, oDirtPlatforms)) {
+			if (chance == 9) {	
+				instance_create_layer(x,y,layer,oRunEffect);	
+			}
+		}
+	}
 	
 	repeat(walkSpd) {
 	
@@ -45,6 +54,15 @@ if ((place_meeting(mouse_x,mouse_y,oRightButton) and mouse_check_button(mb_left)
 	right = true;
 	initDirection = 1;
 	image_xscale = initDirection;
+	
+	if (place_empty(x + initDirection,y,oDirtPlatforms)) {
+		var chance = irandom(7);
+		if (place_meeting(x, y + 1, oDirtPlatforms)) {
+			if (chance == 6) {	
+				instance_create_layer(x,y,layer,oRunEffect);	
+			}
+		}
+	}
 	
 	repeat(walkSpd) {
 		

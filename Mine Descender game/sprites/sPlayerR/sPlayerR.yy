@@ -43,7 +43,7 @@
     "name": "sPlayerR",
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 9.0,
+    "playbackSpeed": 18.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

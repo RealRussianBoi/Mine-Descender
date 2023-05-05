@@ -57,7 +57,7 @@ if (DelayTimer == 0) {
 					
 					if (chance > 74) {
 							
-						instance_create_layer(tempID.x,tempID.y,"Enemies",oEnemyContainer.Container[irandom(oEnemyContainer.containerSize - 1)]);
+						instance_create_layer(tempID.x,tempID.y,"Enemies",ds_list_find_value(oRssContainer.EnemyContainer,irandom(ds_list_size(oRssContainer.EnemyContainer) - 1)));
 						amountSpawned++;
 						
 				}
